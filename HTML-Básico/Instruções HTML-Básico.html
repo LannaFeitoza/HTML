@@ -1,0 +1,203 @@
+<html>
+	<head>
+		<title>Deixando instruções HTML-Básico></title>
+	</head>
+	<body>
+		<a name="teste">
+		<p> <font face="Verdana" size="5" color="DarkBlue">Deixando instruções HTML-Básico</font> </p>	
+		<p>
+		   <a href="#Parte 1">Estilos de Fonte + quebra de linha</a><br>
+		   <a href="#Parte 2">Alinhamento de Texto</a><br>
+		   <a href="#Parte 3">Mudar Fonte, Tamanho e Cor do Texto</a><br>
+		   <a href="#Parte 4">Linha Horizontal</a><br>
+		   <a href="#Parte 5">Formatação sem Alteração</a><br>
+		   <a href="#Parte 6">Inserir Listas</a><br>
+		   <a href="#Parte 7">Inserir Imagens</a><br>
+		   <a href="#Parte 8">Criar links</a></p>
+		<hr></hr>
+		
+		<a name="Parte 1">
+		<h3><font color="MediumBlue">Estilos de Fonte + quebra de linha </font></h3>
+			<ul type="disc">
+				<li><p>Para quebrar linha no HTML: < br >
+				<li><b>Para deixar em negrito:</b> < b >< / b >
+				<li><i>Para deixar em itálico:</i> < i >< / i > 
+				<li><u>Para deixar sublinhado:</u> < u >< / u > 
+			</ul>
+		<hr></hr>
+		
+		<a name="Parte 2">
+		<h3><font color="MediumBlue">Alinhamento de Texto</font></h3>
+		<p align=left><font color="#003366">● Para deixar o texto 	alinhado a esquerda: p align=left </font> </p>	
+		<p align=center><font color="#003366">● Para deixar o texto alinhado no centro: p align=center </font> </p>	
+		<p align=right><font color="#003366">● Para deixar o texto 	alinhado a direita: p align=right </font> </p>	
+		<hr></hr>	
+		
+		<a name="Parte 3">
+		<h3><font face="Cabrini" color="MediumBlue"> Mudar Fonte, Tamanho e Cor do Texto</font></h3>	
+			<ul>	
+				<li>Fonte: < font face="nome da fonte" >	
+				<li>Tamanho: < font size=" 1 <= x <= 7" >	
+				<li>Cor: < font color="nome ou número da cor">
+			</ul>	
+		<hr></hr>	
+		
+		<a name="Parte 4">
+		<h3><font face="Cabrini" color="MediumBlue">Linha horizontal</font></h3>	
+		<p>● Para por linha horizontal: < hr >< / hr ></p>	
+		<hr></hr>
+
+		<a name="Parte 5">
+		<h2><font face="Cabrini" color="MediumBlue">Formatação sem Alteração</font></h2>	
+		<p>● Sintaxe: < pre >< / pre ></p>	
+		<pre><p> Mostrando espaçamento 
+			da mesma               forma que foi escrito
+		dentro do 
+		                         html!
+		</p></pre>	
+		<hr></hr>	
+		
+		<a name="Parte 6">
+		<h3><font color="MediumBlue">Inserir Listas</font></h3>
+			<ol>
+			    <li><font color="#003366">Lista Ordenada: < ol > < li > < / ol ></font><br><br>
+			    	<ol>	
+						<li> Macacos podem escalar
+						<li> Grilos podem saltar
+						<li> Cavalos podem correr
+						<li> Corujas podem caçar
+						<li> Guepardos podem correr
+						<li> Águias podem voar
+						<li> Pessoas podem tentar
+						<li> Mas isso é tudo.
+					</ol>
+
+				<p>Obs: Se não entendeu a referência... que pena!</p>
+				<p>● Para personalizar a lista ordenada: < ol type= 	"estilo do número" ></p>	
+		        	<ol>	
+		        		<li>A- Para exibir letras maiúsculas	
+		        		<li>a- Para exibir letras minúsculas	
+		        		<li>I- Para exibir números romanos grandes
+		        		<li>i- Para exibir números romanos pequenos	
+		        	</ol><br>
+				
+		    	<li><font color="#003366">Lista Não Ordenada: < ul > < li > < /ul ></font><br><br>	
+		    		<ul>	
+						<li> Macacos podem escalar
+						<li> Grilos podem saltar
+						<li> Cavalos podem correr
+						<li> Corujas podem caçar
+						<li> Guepardos podem correr
+						<li> Águias podem voar
+						<li> Pessoas podem tentar
+						<li> Mas isso é tudo.
+					</ul>	
+				
+				<p>● Para personalizar a lista não ordenada: < ul type= "estilo do marcador" ></p>	
+					<ul>	
+						<li>disc- Para exibir ●
+						<li>circle- Para exibir ○	
+						<li>square- Para exibir ▪	
+					</ul><br>
+				
+		    	<li><font color="#003366">Lista Intercalada: < ul > < li > < ol > < li > < /ol > < /ul ></font><br><br>
+		    		<ul>	
+						<li>Parte UL 1	
+						<ol>	
+							<li>Parte OL 1	
+							<li>Parte OL 1	
+						</ol><br>	
+						<li>Parte UL 2	
+						<ol>
+							<li>Parte OL 2	
+							<li>Parte OL 2	
+						</ol>	
+					</ul> 
+
+				<p>● Ou pode ser o oposto: < ol > < li > < ul > < li > < /ul > < /ol ></p>
+					<ol>	
+						<li>Parte OL 1	
+						<ul type="circle">	
+							<li>Parte UL 1	
+							<li>Parte UL 1	
+						</ul><br>	
+						<li>Parte OL 2	
+						<ul type="circle">
+							<li>Parte UL 2	
+							<li>Parte UL 2	
+						</ul>	
+					</ol> 
+			</ol>
+		<hr></hr>
+
+		<a name="Parte 7">
+		<h3><font color="MediumBlue">Inserir Imagens</font></h3>
+		<p>● Sintaxe: < img srg="C:\pasta\nome imagem.extensão da 	imagem" ><br>	
+		● Para alinhar a imagem: < img src="nome da imagem" align=	"tipo alinhamento" 	><br>	
+			<ul type="disc">
+				<li>TOP - Para deixar a imagem no topo do texto.
+				<li>BOTTOM	- Para deixar a imagem abaixo do texto.
+				<li>MIDDLE	- Para deixar a imagem no meio do texto.
+				<li>RIGHT - Para deixar imagem a direita do texto.
+				<li>LEFT - Para deixar imagem a esquerda do texto.
+			</ul>	
+		
+		<p>● Para aparecer mensagem ao passar cursor na imagem: < img alt="Texto Explicativo" > </p>	
+		
+		<p>● Imagem(top): <img src="https://i.pinimg.com/originals/3a/d1/71/3ad17165cde9bd1b7eae8c7480b93dca.gif" title="Imagem de teste" align="top" height="250px" width="150px"></p>	
+		<p>Créditos: cocoabats.
+		
+		<p>● Uma observação: Neste momento 09/07/2021, meu navegadores não estavam mostrando o <b>Texto Explicativo</b> ao passar o cursor por cima da imagem do Napstablook.<br>A solução encontrada: Troque <b>ALT</b> por <b>TITLE</b>.</p>	
+		<hr></hr>	
+		
+		<a name="Parte 8">
+		<h3><font color="MediumBlue">Criar Links</font></h3>
+			<ul type="disc">
+				<li><font color="#003366">Criar links na página web:</font>
+					<p> Os links podem ser criados no texto e também em outros 	elementos do website, como imagens ou itens de um menu. Será usada a tag <b>ANCHOR</b>.<br>● Sintaxe: < a > < /a ><br>● Sintaxe inserindo o link: < a href="URL" > Texto descritivo	 < /a ></p>	
+					<p><a href="file:///C:/Users/Lanna%20Feitoza/Documents/HTML/	Complemento_treinamento.html">Clique aqui</a> para acessar o complemento de teste deste html.</p>
+					<p><a href="https://youtu.be/19B8DECAE0U">Clique aqui</a> para ver um vídeo da resolução da quarta questão da prova de laboratório.</p>	
+				
+				<li><font color="#003366">Criar links para uma seção:</font>
+					<p>Para criar links para uma seção é necessário usar a tag: < a name="nomeação da seção" > para dar um nome a sua seção ou usar o prório nome. Depois é só usar a tag: < a href="#nomeação da 	seção" > Texto Descritivo < /a >.<br><br>
+					<a href="#teste"> Se clicar aqui</a> vai lá para o início da página.</p>
+
+				<li><font color="#003366">Criar links em uma imagem:</font>
+					<p>Para criar links em uma imagem: < a href="URL" > < img src="img_url" > < /a ><br><br>
+					Clique na imagem: <a href="https://www.youtube.com/watch?v=4tCuf3SGHTU"> <img src="https://i1.sndcdn.com/artworks-000132352200-2ibbqk-t500x500.jpg" align="top" height="200px" width="200px" max-height="200px" max-width="200px"> </a></p>
+
+				<li><font color="#003366">Personalizar a cor dos links:</font>
+					<p>São três elementos:
+						<ol>
+							<li><b>link</b>: Especifica a cor dos links não acessados da página web.
+							<li><b>vlink</b>: Após ser acessado, o link apresentará a cor especificada por este atributo.
+							<li><b>alink</b>: Especifica a cor que o linl deverá apresentar quando o cursor estiver sobre ele.
+						</ol><br>
+					● Sintaxe: < body link="cor" vlink="#cor" alink="cor" ><br><br>
+
+					Entretanto, essa sintaxe vai mudar a cor de todos os links para terem o mesmo padrão. Mas se quiser deixar cada link um de cada cor, basta usar a sintaxe do <b>Font Color</b>.<br><br>
+					● Sintaxe: < a href="URL" >< font color="cor" > Texto Descritivo < /font >< /a >
+					</p>
+
+				<li><font color="#003366">Criar links em lista</font>
+					<p>Para fazer isso deve inserir a tag ANCHOR ao lado do < li > na lista. Se for link de uma de seção é só criar depois as tags name de acordo com sua seção.</p>
+
+					<ul type="disc">
+						<li><a href="https://github.com/LannaFeitoza/Questoes_na_Linguagem_C"><font color="DimGray">Clique aqui</font></a> para acessar questões resolvidas na linguagem C.
+						<li><a href="https://github.com/LannaFeitoza/Questoes_na_Linguagem_Dart"><font color="DeepSkyBlue">Clique aqui</font></a> para acessar questões na linguagem Dart.
+						<li><a href="#teste"><font color="Green">Se clicar aqui</font></a> vai lá para o início da página.
+					</ul><br>
+
+				<li><font color="#003366">Criar links com imagens em uma lista</font>
+					<p>Para fazer isso basta usar a tag ANCHOR com a tag de inserir uma imagem e unir no final com < li >.</p>
+
+					<ul type="disc">
+						<li><a href="https://www.youtube.com/watch?v=t1TcDHrkQYg"><img src="https://i1.sndcdn.com/artworks-000576860210-865n6y-t500x500.jpg" align="top" height="100px" width="100px"><font color="OrangeRed">Alphaville - Forever Young</font></a>
+						<li><a href="https://www.youtube.com/watch?v=BiKYRNoyzZ0"><img src="https://images-na.ssl-images-amazon.com/images/I/71ZvezJ2OoL._AC_SL1200_.jpg" align="top" height="100px" width="100px"><font color="FireBrick">Lana Del Rey - The Blackest Day</font></a>
+						<li><a href="https://www.youtube.com/watch?v=NzBbncKOnN0"><img src="https://lastfm.freetls.fastly.net/i/u/770x0/a5eebec6f210efdaa4cb62ed287d9954.jpg" align="top" height="100px" width="100px"><font color="DarkRed">Lady Gaga - Bloody Mary - AHS</font></a>
+						<li><a href="https://www.youtube.com/watch?v=a3ir9HC9vYg"><img src="https://portalmundo.com.br/wp-content/uploads/2020/01/118870855.jpg" align="top" height="100px" width="100px"><font color="Tomato">A-ha - The Sun Always Shine on TV</font></a>
+						<li><a href="https://www.youtube.com/watch?v=EPOIS5taqA8"><img src="https://lastfm.freetls.fastly.net/i/u/770x0/745634108cb443afabaf5737886ec6f5.jpg" align="top" height="100px" width="100px"><font color="Goldenrod">Kim Carnes - Bette Davis Eyes</font></a>
+			</ul>
+		<hr></hr>
+	</body>
+</html>
