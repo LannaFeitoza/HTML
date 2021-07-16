@@ -1,0 +1,298 @@
+<html>
+    <head>
+        <title>HTML - Avançado</title>
+    </head>
+    <body>
+        <h1><font color="#FF0000">HTML - Avançado instruções</font></h1>
+
+        <a href="#Parte 1">Criando Tabelas</a><br>
+        
+        <hr></hr>
+        <a name="Parte 1">
+        <h3><font color="Blue">● Criando tabelas</font></h3>
+        <p>A tag para criar tabelas: < table >< /table ></table><br>
+        Além da tag < table > são necessárias mais duas tags: </table></p>
+            <ul>
+                <li>< td >< /td > - Cria as células
+                <li>< tr > - Cria as linhas
+            </ul>
+        <p>Exemplo:</p>
+            <table>
+               <tr>
+                   <td>Nome</td>
+                   <td>Sobrenome</td>
+                <tr>
+                    <td>Lanna</td>
+                    <td>Feitoza</td>
+                <tr>
+                    <td>Luana</td>
+                    <td>Fernandes</td>
+                <tr>
+                    <td>Janisson</td>
+                    <td>Silva</td>
+            </table><br>
+        <pre><p>● Sintaxe do exemplo: 
+            < table >
+                < tr >
+                    < td >Nome< /td >
+                    < td >Sobrenome< /td >
+                < tr >
+                    < td >Lanna< /td >
+                    < td >Feitoza< /td >
+                < tr >
+                    < td >Luana< /td >
+                    < td >Fernandes< /td >
+                < tr >
+                    < td >Janisson< /td >
+                    < td >Silva< /td >
+            < /table >
+        </p></pre>
+        <hr></hr>
+        
+        <h3><font color="Blue">● Adicionando bordas na tabela</font></h3>
+        <p>Para adicionar bordas é usado o atributo <b>border</b>, a espessura é definida em pixels.<br>
+        ● Sintaxe: < table border="número de pixels" ><br><br>Exemplo:</p>
+            <table border="5">
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                <tr>
+                    <td>Lanna</td>
+                    <td>Feitoza</td>
+                <tr>
+                    <td>Luana</td>
+                    <td>Fernandes</td>
+                <tr>
+                    <td>Janisson</td>
+                    <td>Silva</td>
+            </table>
+        <hr></hr>
+        <h3><font color="Blue">● Adicionando cor na borda</font></h3>
+        <p>Para adicionar cor a borda é utilizado o atributo <b>bordercolor</b>.<br>
+        ● Sintaxe: < table bordercolor="cor" ><br><br>Exemplo:</p>
+            <table border="5" bordercolor="#FF0000">
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                <tr>
+                    <td>Lanna</td>
+                    <td>Feitoza</td>
+                <tr>
+                    <td>Luana</td>
+                    <td>Fernandes</td>
+                <tr>
+                    <td>Janisson</td>
+                    <td>Silva</td>
+            </table>
+        <hr></hr>
+        <h3><font color="Blue">● Adicionando cor de fundo na tabela</font></h3>
+        <p>Para adicionar cor de fundo na tabela é utilizado o atributo <b>bgcolor</b>.<br>
+        ● Sintaxe: < table bgcolor="cor" ><br><br>Exemplo:</p>
+        <table border="5" bordercolor="#FF0000" bgcolor= "Aqua">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td>Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+            <tr>
+                <td>Janisson</td>
+                <td>Silva</td>
+        </table><br>
+
+        <p>Também pode adicionar cor apenas em uma linha:<br>
+        ● Sintaxe: < tr bgcolor="cor" ><br><br>Exemplo:</p>
+        <table border="5" bordercolor="#FF0000">
+            <tr bgcolor= "Aqua">
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td>Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+            <tr>
+                 <td>Janisson</td>
+                 <td>Silva</td>
+        </table><br>
+
+        <p>Também pode adicionar cor em apenas uma célula.<br>
+        ● Sintaxe: < td bgcolor="cor" ><br><br>Exemplo:</p>
+        <table border="5" bordercolor="#FF0000">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td bgcolor= "Aqua">Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+            <tr>
+                <td bgcolor= "Aqua">Janisson</td>
+                <td>Silva</td>
+        </table>
+        <hr></hr>
+        
+        <h3><font color="Blue">● Adicionando imagem de fundo na tabela</font></h3>
+        <p>Para adicionar uma imagem no fundo da tabela é utilizado o atributo <b>background</b>.<br>
+        ● Sintaxe: < table background="nome da imagem.extensão" ><br><br>Exemplo:</p></p>
+        <table border="5" bordercolor="#FF0000" background= "https://arteemacucar.com.br/lojawcom/wp-content/uploads/2017/03/arte-em-acucar_tela-estrelas-cs54-cover.jpg">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td>Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+            <tr>
+                <td>Janisson</td>
+                <td>Silva</td>
+        </table>
+        <hr></hr>
+        
+        <h3><font color="Blue">● Adicionando largura e altura</font></h3>
+        <p>Para adicionar largura e altura são usados os atributos <b>width</b> e <b>height</b>.<br>
+        Os valores podem ser inseridos em pixels ou porcentagem.<br>
+        ●Sintaxe: < table width="valor" heigth="valor" ><br><br>Exemplo:</p>
+            <table border="5" bordercolor="#FF0000" width="500" height="300">
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                <tr>
+                    <td>Lanna</td>
+                    <td>Feitoza</td>
+                <tr>
+                    <td>Luana</td>
+                    <td>Fernandes</td>
+                <tr>
+                    <td>Janisson</td>
+                    <td>Silva</td>
+            </table>
+        <hr></hr>
+        
+        <h3><font color="Blue">● Adicionando alinhamento na tabela</font></h3>
+        <p>Para fazer o alinhamento da tabela em relação à página web é usado o atributo <b>align</b>.<br>
+        ● Sintaxe: < table align="alinhamneto" ></p>
+            <ul>
+                <li>Align="left" alinha na esquerda.
+                <li>Align="center" alinha no centro.
+                <li>Align="right" alinha na direita.
+            </ul>
+        <p>Exemplo de alinhamento no centro: </p>
+            <table border="5" bordercolor="#FF0000" align="center">
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                <tr>
+                    <td>Lanna</td>
+                    <td>Feitoza</td>
+                <tr>
+                    <td>Luana</td>
+                    <td>Fernandes</td>
+                <tr>
+                    <td>Janisson</td>
+                    <td>Silva</td>
+            </table>
+        <hr></hr>
+        <h3><font color="Blue">● Adicionando espaço entre borda e célula</font></h3>
+        <p>Para adicionar espaço entre a borda da tabela e as células é usado o atributo <b>cellspacing</b>.<br>
+        ● Sintaxe: < table cellspacing="número" ><br><br>Exemplo: </p>
+        <table border="5" bordercolor="#FF0000" cellspacing="9">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td>Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+            <tr>
+                <td>Janisson</td>
+                <td>Silva</td>
+        </table>
+        <hr></hr>
+        
+        <h3><font color="Blue">● Atributos da tag TD</font></h3>
+            <ol>
+                <li>Align: Permite alinhar horizontalmente o texto na célula.<br>
+                    Sintaxe: < td aling="alinhamento" >
+                        <ul>
+                            <li>Align="left" - alinha na esquerda.
+                            <li>Align="center" - alinha no centro.
+                            <li>Align="right" - alinha na direita.
+                        </ul><br>
+                
+                <li>Valing: Permite alinhar verticalmente o texto na célula.<br>
+                    Sintaxe: < td valign="alinhamneto" >
+                        <ul>
+                            <li>Valign="top" - alinha na parte superior.
+                            <li>Valign="bottom" - alinha na parte inferior.
+                            <li>Valign="center" - alinha o centro.
+                        </ul><br>
+                
+                <li>Colspan: Permite mesclar colunas.<br>
+                    Sintaxe: < td colspan="número da quantidade de colunas" ><br><br>  
+                    
+                <li>Rowspan: Permite mesclar células.<br>
+                    Sintaxe: < td rowspan="número da quantidade de células" >
+            </ol><br>
+
+        <p>Exemplo do atributo aling="right" na posição Feitoza.</p>
+        <table border="5" bordercolor="#FF0000" width="200">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td align="right">Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+        </table><br>
+
+        <p>Exemplo do atributo valing="bottom" na posição Feitoza.</p>
+        <table border="5" bordercolor="#FF0000" height="200">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td valign="bottom">Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+        </table><br>
+
+        <p>Exemplo do atributo colspsan="2" para unir o Nome com mais 1 coluna.</p>
+        <table border="5" bordercolor="#FF0000" height="200">
+            <tr>
+                <td colspan="2">Nome</td>
+            <tr>
+                <td>Lanna</td>
+                <td>Feitoza</td>
+            <tr>
+                <td>Luana</td>
+                <td>Fernandes</td>
+        </table><br>
+
+        <p>Exemplo do atributo rowspan="2" para unir o Feitoza com mais uma célula.</p>
+        <table border="5" bordercolor="#FF0000" height="200">
+            <tr>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+            <tr>
+                <td>Lanna</td>
+                <td rowspan="2">Feitoza</td>
+            <tr>
+                <td>Luana</td>
+        </table>
+    </body>
+</html>
