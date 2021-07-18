@@ -6,8 +6,9 @@
         <h1><font color="#FF0000">HTML - Avançado instruções</font></h1>
 
         <a href="#Parte 1">Criando Tabelas</a><br>
-        
+        <a href="#Parte 2">Criando Formulários</a>
         <hr>
+        
         <a name="Parte 1">
         <h3><font color="Blue">● Criando tabelas</font></h3>
         <p>A tag para criar tabelas: < table >< /table ></table><br>
@@ -49,7 +50,7 @@
         </p></pre>
         <hr>
         
-        <h3><font color="Blue">● Adicionando bordas na tabela</font></h3>
+        <h4><font color="Blue">● Adicionando bordas na tabela</font></h4>
         <p>Para adicionar bordas é usado o atributo <b>border</b>, a espessura é definida em pixels.<br>
         ● Sintaxe: < table border="número de pixels" ><br><br>Exemplo:</p>
             <table border="5">
@@ -68,7 +69,7 @@
             </table>
         <hr>
         
-        <h3><font color="Blue">● Adicionando cor na borda</font></h3>
+        <h4><font color="Blue">● Adicionando cor na borda</font></h4>
         <p>Para adicionar cor a borda é utilizado o atributo <b>bordercolor</b>.<br>
         ● Sintaxe: < table bordercolor="cor" ><br><br>Exemplo:</p>
             <table border="5" bordercolor="#FF0000">
@@ -87,7 +88,7 @@
             </table>
         <hr>
         
-        <h3><font color="Blue">● Adicionando cor de fundo na tabela</font></h3>
+        <h4><font color="Blue">● Adicionando cor de fundo na tabela</font></h4>
         <p>Para adicionar cor de fundo na tabela é utilizado o atributo <b>bgcolor</b>.<br>
         ● Sintaxe: < table bgcolor="cor" ><br><br>Exemplo:</p>
         <table border="5" bordercolor="#FF0000" bgcolor= "Aqua">
@@ -140,7 +141,7 @@
         </table>
         <hr>
         
-        <h3><font color="Blue">● Adicionando imagem de fundo na tabela</font></h3>
+        <h4><font color="Blue">● Adicionando imagem de fundo na tabela</font></h4>
         <p>Para adicionar uma imagem no fundo da tabela é utilizado o atributo <b>background</b>.<br>
         ● Sintaxe: < table background="nome da imagem.extensão" ><br><br>Exemplo:</p></p>
         <table border="5" bordercolor="#FF0000" background= "https://arteemacucar.com.br/lojawcom/wp-content/uploads/2017/03/arte-em-acucar_tela-estrelas-cs54-cover.jpg">
@@ -159,7 +160,7 @@
         </table>
         <hr>
         
-        <h3><font color="Blue">● Adicionando largura e altura</font></h3>
+        <h4><font color="Blue">● Adicionando largura e altura</font></h4>
         <p>Para adicionar largura e altura são usados os atributos <b>width</b> e <b>height</b>.<br>
         Os valores podem ser inseridos em pixels ou porcentagem.<br>
         ●Sintaxe: < table width="valor" heigth="valor" ><br><br>Exemplo:</p>
@@ -179,7 +180,7 @@
             </table>
         <hr>
         
-        <h3><font color="Blue">● Adicionando alinhamento na tabela</font></h3>
+        <h4><font color="Blue">● Adicionando alinhamento na tabela</font></h4>
         <p>Para fazer o alinhamento da tabela em relação à página web é usado o atributo <b>align</b>.<br>
         ● Sintaxe: < table align="alinhamneto" ></p>
             <ul>
@@ -203,7 +204,8 @@
                     <td>Silva</td>
             </table>
         <hr>
-        <h3><font color="Blue">● Adicionando espaço entre borda e célula</font></h3>
+        
+        <h4><font color="Blue">● Adicionando espaço entre borda e célula</font></h4>
         <p>Para adicionar espaço entre a borda da tabela e as células é usado o atributo <b>cellspacing</b>.<br>
         ● Sintaxe: < table cellspacing="número" ><br><br>Exemplo: </p>
         <table border="5" bordercolor="#FF0000" cellspacing="9">
@@ -222,7 +224,7 @@
         </table>
         <hr>
         
-        <h3><font color="Blue">● Atributos da tag TD</font></h3>
+        <h4><font color="Blue">● Atributos da tag TD</font></h4>
             <ol>
                 <li>Align: Permite alinhar horizontalmente o texto na célula.<br>
                     Sintaxe: < td aling="alinhamento" >
@@ -296,5 +298,157 @@
             <tr>
                 <td>Luana</td>
         </table>
+        <hr>
+
+        <a name="Parte 2">
+        <h3><font color="Blue">● Criando Formulários</font></h3>
+        <p>Para criar um formulário é usada a tag <b>form</b>.<br>
+        ● Sintaxe: < form atributos > < /form ><br><br>
+        Para mandar os dados inseridos em um formulário é usada o atributo <b>action</b>.<br>
+        Esse atributo especifica a URL do script que processará os dados do formulário.<br>
+        ● Sintaxe: < form action = "URL" ><br><br>Exemplo: < form action="mailto:alguem@gmail.com" ><br><br>
+        Para definir a forma como serão mandados os dados temos o atributo <b>method</b>.<br>
+        Ele pode receber dois valores: <b>get</b> ou <b>post</b>.<br>
+        O <b>post</b> consegue enviar mais dados para o servidor enquanto o <b>get</b> tem um menor envio de dados.<br>
+        ● Sintaxe: < form action ="URL" method="get" ><br><br>
+        Também temos o atributo <b>type</b>, este atributo que vai definir o tipo de entrada,<br>
+        pode ser uma entrada de texto, de senha, única escolha, mútipla escolha.<br><br>
+        E para ler a entrada temos o atributo <b>input</b>, é a partir dele que temos a entrada. </p>
+        <hr>
+
+        <h4><font color="Blue">● Criando um campo de texto</font></h4>
+        <p>● Sintaxe: < input=text name="nome" size="número" maxlenght="número" ></p>
+            <ol type="i">
+                <li>Type: valor que especifica o tipo de entrada. Nesse caso tipo text.
+                <li>Name: nome da vriável que armazena os dados.
+                <li>Size: tamanho do campo em número de caracteres.
+                <li>Maxlenght: número máximo de caracteres que podem ser inseridos pelo usuário.
+            </ol>
+
+        <p>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="text" name="nome" size="30" maxlenght="50">
+            </form>
+
+        <pre><p>Dentro do HTML: 
+            < form action="não definido" method="get" >
+                < input type="text" name="nome" size="30" maxlenght="50" >
+            < /form >
+        </p></pre>
+
+        <p>Para mostrar um padrão de como dever inserir o dado, temos o atributo <b>value</b>.<br>
+        ● Sintaxe: < input type=text name="nome" size="número" value="Ex: AM" ><br><br>Exemplo:</p>
+            <form action="não definido" method="get">
+                <input type="text name="nome" size="2" value="Ex: AM">
+            </form>
+        <hr>
+        
+        <h4><font color="Blue">● Criando um campo com senha</font></h4>
+        <p>Para criar um campo de senha devemos dar o valor <b>password</b> para o atributo <b>type</b>.<br>
+        ● Sintaxe: < input type="password" ><br><br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="password" name="nome" size="20" maxlenght="20">
+            </form>
+        <hr>
+
+        <h4><font color="Blue">● Criando botões de escolha</font></h4>
+        <p>Para criar um botão de escolha única é usado o valor <b>radio</b> para o atributo <b>type</b>.<br>
+        ● Sintaxe: < input type="radio" name="variável" ><br><br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="radio" name="nome">Marque aqui 1<br>
+                <input type="radio" name="nome">Marque aqui 2<br>
+                <input type="radio" name="nome">Marque aqui 3
+            </form>
+        
+        <p>Para deixar uma das opções selecionadas como padrão, usamos o atributo <b>checked</b><br>
+        no atributo <b>type</b>.<br>
+        ● Sintaxe: < input type="radio" name="variável" checked ><br><br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="radio" name="nome">Marque aqui 1<br>
+                <input type="radio" name="nome" checked>Marque aqui 2<br>
+                <input type="radio" name="nome">Marque aqui 3
+            </form>
+
+        <p>Para marcar mais de uma opção usamos o valor <b>checkbox</b> no atributo <b>type</b><br>
+        ● Sintaxe: < input type="checkbox" name="variável"><br><br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="checkbox" name="variável">Marque aqui 1<br>
+                <input type="checkbox" name="variável">Marque aqui 2<br>
+                <input type="checkbox" name="variável">Marque aqui 3
+            </form>     
+        <hr>
+
+        <h4><font color="Blue">● Criando uma área de texto</font></h4>
+        <p>Para criar uma área de texto é usada a tag <b>textarea</b>. E são usados os atributos<br>
+        <b>rows</b> e <b>cols</b>.<br>
+            <ol>
+                <li>Rows: especifica a altura.
+                <li>Cols: especifica a largura.
+            </ol>
+        ● Sintaxe: < textarea name="variável" rows="número" cols="número" > < /textarea ><br>
+        <br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <textarea name="variável" rows="5" cols="20"> </textarea>
+            </form>
+        <hr>
+
+        <h4><font color="Blue">● Criando botões de enviar e resetar</font></h4>
+        <p>Para criar um botão de enviar é usado o valor <b>submit</b>.<br>
+        ● Sintaxe: < input type="submit" value="Enviar" ><br><br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Clique aqui para enviar">
+            </form>
+        
+        <p>Para criar um botão de resetar todos os campos usamos o valor <b>reset</b>.<br>
+        ● Sintaxe: < input type="reset" value="Apagar" ><br><br>Exemplo: </p>
+            <form action="não definido" method="get">
+                <input type="reset" value="Apagar">
+                <input type="reset" value="Clique aqui para apagar">
+            </form>
+        <hr>
+
+        <h4><font color="Blue">● Criando opção em lista e menu</font></h4>
+        <p>Para criar uma opção em lista é usado a tag <b>select</b>, com o atributo multiple. Junto com a tag <b>option</b>.</p>
+        <pre><p>● Sintaxe:  < form >
+                < select multiple name="identifica a lista" >
+                    < option value="1" >Nome do item
+                < /select> 
+            < /form >
+        </p></pre>
+        <p>Exemplo: </p>
+            <select multiple name="Países" >
+                <option value="valor1">Brasil
+                <option value="valor2">Argentina
+                <option value="valor3">Portugal
+            </select>
+        
+        <p>Para criar um menu é só tirar o atributo <b>multiple</b > da tag <b>select</b>.</p>
+        <pre><p>● Sintaxe:  < form >
+                < select name="identifica a lista" >
+                    < option value="1" >Nome do item
+                < /select> 
+            < /form >
+        </p></pre>
+        <p>Exemplo: </p>
+            <select name="Países" >
+                <option value="valor1">Brasil
+                <option value="valor2">Argentina
+                <option value="valor3">Portugal
+            </select>
+
+        <p>Para que no menu apareça um valor padrão é só utilizar o atributo <b>selected</b> na tag <b>option</b>.<br>
+        ● Sintaxe: < option selected value="1" ><br><br>
+        Sobre os atributos: </p>
+            <ol type="i">
+                <li>Multiple: exibe a lista aberta.
+                <li>Name: identifica a lista.
+                <li>Option: cria cada item da lista.
+                <li>Selected: mostra o valor padrão da lista.
+                <li>Value: valor que será retornado.
+            </ol>
+        <hr>
+
+
     </body>
 </html>
